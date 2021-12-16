@@ -1,6 +1,10 @@
 /* This css file contains global style that can be used by all components */
 
-/* Images always are scaled to occupy available space, so use external divs to change size */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Images are always scaled to occupy available space, so use external divs to change size */
 img {
     width: 100%;
     height: 100%;
