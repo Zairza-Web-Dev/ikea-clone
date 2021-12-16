@@ -1,3 +1,4 @@
+/* IMG CARD */
 /* This represents a div that holds a single image of the large image grid */
 .img-card {
     aspect-ratio: 1 / 1.25;
@@ -14,5 +15,43 @@
 @media only screen and (min-width: 1200px) {
     .img-card {
         padding: 1%;
+    }
+}
+
+/* SHOWCASE BUTTONS */
+/* This the collection of different showcase filter button */
+.showcase-buttons {
+    overflow: auto;
+    white-space: nowrap;
+}
+
+/* FILTER BUTTON */
+/* This is each filter button for filtering out products from showcase */
+.filter-button {
+    display: inline-block;
+    background-color: rgb(245, 245, 245);
+}
+
+/* For medium display */
+@media only screen and (min-width: 768px) {
+    .filter-button {
+        font-size: 28px;
+        font-weight: 700;
+        border-radius: 50px;
+        height: 5%;
+        padding: 0 8% 0 8%;
+        margin: 5% 2% 5% 2%;
+    }
+}
+
+/* For large display */
+@media only screen and (min-width: 1200px) {
+    .filter-button {
+        font-size: 13px;
+        font-weight: 700;
+        border-radius: 50px;
+        height: 6%;
+        padding: 0 2% 0 2%;
+        margin: 1%;
     }
 }
