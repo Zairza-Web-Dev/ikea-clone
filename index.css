@@ -9,3 +9,39 @@ img {
     width: 100%;
     height: 100%;
 }
+
+/* This reppresents the background div that stretches across the whole page, except navbar */
+/* For medium display */
+@media only screen and (min-width: 768px) {
+    .background-div {
+        margin: 2%;
+    }
+}
+
+/* For Large display */
+@media only screen and (min-width: 1200px) {
+    .background-div {
+        margin: 8%;
+    }
+}
+
+/* This is the styling for sub-heading for showcase, sale, Limited collection, etc */
+/* For all screen sizes */
+.sub-heading {
+    font-weight: 700;
+    margin: 2% 1% 2% 1%;
+}
+
+/* For medium displays */
+@media only screen and (min-width: 768px) {
+    .sub-heading {
+        font-size: 45px;
+    }
+}
+
+/* For large displays */
+@media only screen and (min-width: 1200px) {
+    .sub-heading {
+        font-size: 25px;
+    }
+}
