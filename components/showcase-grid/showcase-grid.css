@@ -1,0 +1,25 @@
+/* This represents a div that holds a single image of the large image grid */
+.img-card {
+    aspect-ratio: 1 / 1.25;
+}
+
+
+/* For medium display */
+@media only screen and (min-width: 768px) {
+    .row {
+        padding: 0 2% 0 2%;
+    }
+    .img-card {
+        padding: 2% 2% 2% 2%;
+    }
+}
+
+/* For large display */
+@media only screen and (min-width: 1200px) {
+    .row {
+        padding: 0 8% 0 8%;
+    }
+    .img-card {
+        padding: 1%;
+    }
+}
