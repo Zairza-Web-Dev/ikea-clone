@@ -10,6 +10,7 @@ img {
     height: 100%;
 }
 
+/* BACKGROUND DIV */
 /* This reppresents the background div that stretches across the whole page, except navbar */
 /* For medium display */
 @media only screen and (min-width: 768px) {
@@ -25,7 +26,7 @@ img {
     }
 }
 
-/* This is the styling for sub-heading for showcase, sale, Limited collection, etc */
+/* SUB HEADING */
 /* For all screen sizes */
 .sub-heading {
     font-weight: 700;
