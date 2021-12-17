@@ -1,0 +1,13 @@
+/* FEATURE CARD */
+/* For large display */
+.feature-card {
+    text-align: center;
+}
+
+.feature-card > h6 {
+    font-weight: 700;
+}
+
+.feature-card > p {
+    font-size: 14px;
+}
