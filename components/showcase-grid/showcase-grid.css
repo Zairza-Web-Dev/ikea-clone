@@ -12,7 +12,7 @@
     background-color: rgb(245, 245, 245);
 }
 
-/* For medium display */
+/* For small display */
 @media only screen and (min-width: 768px) {
     .filter-button {
         font-size: 28px;
@@ -42,7 +42,7 @@
     aspect-ratio: 1 / 1.25;
 }
 
-/* For medium display */
+/* For small display */
 @media only screen and (min-width: 768px) {
     .img-card {
         padding: 2%;
@@ -62,7 +62,7 @@
     text-align: center;    
 }
 
-/* For medium display */
+/* For small display */
 @media only screen and (min-width: 768px) {
     #showcase-controls {
         margin: 80px 0 80px 0;
@@ -85,7 +85,7 @@
     background-color: rgb(51, 51, 51);
 }
 
-/* For medium display */
+/* For small display */
 @media only screen and (min-width: 768px) {
     #show-more-btn {
         font-size: 40px;
