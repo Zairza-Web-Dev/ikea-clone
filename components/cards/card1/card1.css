@@ -1,33 +1,71 @@
-.card-body{
+/* For all sizes*/
+.highlight-card {
+    padding: 0;
+    display: inline-block;
+}
+
+.highlight-card-body{
     background-color:#700730;
 }
-.card-content{
-    font-size: 1.5625rem;
-    line-height: 2.5rem;
-    font-weight:bold;
-    color: #fff; 
-    padding:1rem;
-    padding-left: 1rem;
-    padding-right:1.2rem;
-    padding-top: 0.8rem;
-    padding-bottom: 1.5rem;
+
+.highlight-card-content {
+    font-weight: 700;
 }
 
-.card-content:hover{
-    text-decoration: underline;
-}
-
-#arrow{
+.highlight-card-button{
+    aspect-ratio: 1 / 1;
+    background-color: white;
     color: black;
-    padding: 1rem;
-    font-size: 1.2rem;
     border-radius:50%;
-    border-color: #fff;
+    border-color: #ffffff;
 }
-#arrow:hover{
-    border-color: #fff;
+
+.highlight-card-button:hover{
+    border-color: #ffffff;
 }
-#arrow:active{
-    box-shadow: 0 1px rgb(218, 213, 213);
-  transform: translateY(1px);
+
+/* For Small Display */
+@media only screen and (min-width: 768px) {
+    .highlight-card {
+        width: 90%;
+        margin-right: 2% 4% 2% 0;
+    }
+
+    .highlight-card-body {
+        padding: 12%;
+    }
+
+    .highlight-card-content {
+        font-size: 56px;
+        color: white;
+    }
+
+    .highlight-card-button {
+        height: 160px;
+        font-size: 48px;
+        margin: 20% 0 0 0;
+    }
+}
+
+/* For Large Display */
+@media only screen and (min-width: 1200px) {
+    .highlight-card {
+        width: 30%;
+        margin: 1% 2% 1% 0;
+    }
+
+    .highlight-card-body {
+        padding: 8%;
+    }
+
+    .highlight-card-content {
+        font-size: 24px;
+        color: white;
+    }
+
+    .highlight-card-button {
+        height: 55px;
+        font-size: 16px;
+        margin: 16% 0 0 0;
+    }
 }
