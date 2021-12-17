@@ -1,0 +1,51 @@
+/* For all sizes */
+.feature-card {
+    background-color: rgb(245, 245, 245);
+    border-color: white;
+    border-width: 0.5%;
+}
+
+.feature-card-title {
+    font-weight: 700;
+}
+
+/* For small display */
+@media only screen and (min-width: 768px) {
+    .feature-card > div {
+        text-align: left;
+        padding: 10% 8% 10% 8%;
+    }
+
+    .feature-card-icon {
+        font-size: 60px;
+        margin: 0 2% 5% 2%;
+    }
+
+    .feature-card-title {
+        font-size: 45px;
+    }
+
+    .feature-card-text {
+        font-size: 40px;
+    }
+}
+
+/* For large display */
+@media only screen and (min-width: 1200px) {
+    .feature-card > div {
+        text-align: center;
+    }
+    
+    .feature-card-icon {
+        margin: 5%;
+        font-size: 20px;
+    }
+    
+    .feature-card-title {
+        font-size: 16px;
+    }
+
+    .feature-card-text {
+        font-size: 14px;
+    }
+}

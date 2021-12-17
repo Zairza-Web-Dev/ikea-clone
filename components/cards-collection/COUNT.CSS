@@ -1,0 +1,19 @@
+.scroll {
+    overflow: auto;
+    white-space: nowrap;
+    height: fit-content;
+} 
+
+/* For small display */
+@media only screen and (max-width: 768px) {
+    .scroll {
+        padding: 2%;
+    }
+}
+
+/* For large display */
+@media only screen and (max-width: 1200px) {
+    .scroll {
+        padding: 1%;
+    }
+}
