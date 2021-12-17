@@ -1,0 +1,12 @@
+.card3{
+    position:relative;
+}
+.btn{
+    position: absolute;
+    top:80%;
+    right:79%;
+    border-radius:24px;
+    padding:1%;
+    background-color:#fff;
+    font-weight: bold;
+}
