@@ -10,6 +10,11 @@ img {
     height: 100%;
 }
 
+/* Always leaving some space before and after a horizontal line */
+hr {
+    margin: 8% 0 8% 0;
+}
+
 
 /* CUSTOM SCROLLBAR */
 ::-webkit-scrollbar {
@@ -32,7 +37,7 @@ img {
 
 /* BACKGROUND DIV */
 /* This reppresents the background div that stretches across the whole page, except navbar */
-/* For medium display */
+/* For small display */
 @media only screen and (min-width: 768px) {
     .background-div {
         margin: 2%;
@@ -53,7 +58,7 @@ img {
     margin: 2% 1% 2% 1%;
 }
 
-/* For medium displays */
+/* For small displays */
 @media only screen and (min-width: 768px) {
     .sub-heading {
         font-size: 45px;
