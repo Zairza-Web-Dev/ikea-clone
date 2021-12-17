@@ -1,0 +1,33 @@
+.card-body{
+    background-color:#700730;
+}
+.card-content{
+    font-size: 1.5625rem;
+    line-height: 2.5rem;
+    font-weight:bold;
+    color: #fff; 
+    padding:1rem;
+    padding-left: 1rem;
+    padding-right:1.2rem;
+    padding-top: 0.8rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-content:hover{
+    text-decoration: underline;
+}
+
+#arrow{
+    color: black;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius:50%;
+    border-color: #fff;
+}
+#arrow:hover{
+    border-color: #fff;
+}
+#arrow:active{
+    box-shadow: 0 1px rgb(218, 213, 213);
+  transform: translateY(1px);
+}
