@@ -1,0 +1,6 @@
+.scrollbar {
+ display:flex;
+    overflow: auto;
+    flex-wrap: nowrap;
+  }
+  

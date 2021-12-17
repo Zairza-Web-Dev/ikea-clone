@@ -1,0 +1,14 @@
+.head{
+ font-weight:650;
+}
+.content{
+    color:#6d6a6a;
+    font-size:.875rem;
+}
+
+img{
+    object-fit:cover;
+    height:auto;
+    width:100%;
+    padding-top: 6%;
+}
