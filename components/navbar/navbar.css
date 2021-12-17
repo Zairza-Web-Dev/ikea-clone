@@ -66,6 +66,10 @@ header {
   width: 100%;
 }
 
+.search-container > input {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .search {
   font-family: "Noto Sans";
   font-size: 16px;
@@ -115,6 +119,11 @@ nav.icons-nav {
 }
 .navheader {
   display: inline;
+}
+
+.hnf-link > p {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 20px;
 }
 
 @media only screen and (max-width: 768px) {
