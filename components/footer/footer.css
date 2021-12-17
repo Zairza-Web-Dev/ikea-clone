@@ -1,0 +1,80 @@
+/* Footer Area  */
+.footer {
+  font-size: 10px;
+  padding: 20px;
+}
+
+.footer_links {
+  font-size: 10px;
+  float: right;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+  text-decoration: none;
+}
+
+.footer_links:hover {
+  color: rgb(48, 46, 46);
+  text-decoration: underline;
+}
+
+.linksheading {
+  font-size: 14px;
+  font-family: "Noto IKEA", "Noto Sans", "Roboto", "Open Sans", system-ui,
+    sans-serif;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 50px;
+}
+
+.linkname {
+  font-size: 10px;
+  font-family: "Noto IKEA", "Noto Sans", "Roboto", "Open Sans", system-ui,
+    sans-serif;
+  text-decoration: none;
+  color: rgb(51, 48, 48);
+  text-align: left;
+  padding-left: 48px;
+}
+
+.linkname div a {
+  font-size: 10px;
+  font-family: "Noto IKEA", "Noto Sans", "Roboto", "Open Sans", system-ui,
+    sans-serif;
+  text-decoration: none;
+  color: rgb(51, 48, 48);
+}
+
+.line {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  padding-bottom: 0px;
+}
+
+.buttonjoin {
+  float: left;
+  margin-left: 48px;
+  padding: 8px;
+  padding-left: 17px;
+  padding-right: 17px;
+  background-color: black;
+  color: azure;
+  font-size: 10px;
+  font-weight: bold;
+  box-shadow: none;
+  border-radius: 20px;
+}
+
+.buttonjoin:hover {
+  background-color: rgb(75, 71, 71);
+}
+
+.icons {
+  padding-left: 80px;
+}
+
+.icons svg {
+  margin: 10px;
+}
