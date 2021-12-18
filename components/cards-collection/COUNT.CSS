@@ -2,6 +2,7 @@
     overflow: auto;
     white-space: nowrap;
     height: fit-content;
+    margin-bottom: 5%;
 } 
 
 /* For small display */
