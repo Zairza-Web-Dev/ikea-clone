@@ -117,21 +117,36 @@ nav.icons-nav {
   display: inline;
 }
 
-@media only screen and (max-width: 768px) {
-  .menu-nav-container {
-    display: flex;
-  }
+@media screen and (max-width: 1200px) {
   .hnf-link {
     display: none;
   }
-  .nav-container {
-    flex-wrap: wrap;
+  .menu-float {
+    display: none;
   }
   .truck {
     display: none;
   }
   .menu-btn {
     display: inline;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .nav-container {
+    flex-wrap: wrap;
+  }
+  .ikea-logo-img {
+    width: 80px;
+    margin-bottom: 10px;
+  }
+  .search {
+    height: 40px;
+  }
+  .icons-nav {
+    position: fixed;
+    top: 10px;
+    right: 40px;
   }
 }
 
@@ -158,7 +173,6 @@ nav.icons-nav {
   bottom: 40px;
   right: 40px;
   background-color: green;
-  color: #fff;
   border-radius: 50px;
   text-align: center;
   box-shadow: 2px 2px 3px #999;
