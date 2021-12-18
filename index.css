@@ -10,6 +10,12 @@ img {
     height: 100%;
 }
 
+/* Setting the banner size to match image */
+.banner {
+    width: fit-content;
+    height: fit-content;
+}
+
 /* Always leaving some space before and after a horizontal line */
 /* For small display */
 @media only screen and (min-width: 768px) {
