@@ -25,6 +25,10 @@
         font-size: 42px;
         margin: 2%;
     }
+
+    .festive-collection-card {
+        margin: 10% 0 10% 0;
+    }
 }
 
 /* For large displays */
@@ -37,5 +41,9 @@
     .content {
         font-size: 14px;
         margin: 2%;
+    }
+
+    .festive-collection-card {
+        margin: 2% 0 2% 0;
     }
 }
