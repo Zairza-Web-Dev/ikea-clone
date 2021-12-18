@@ -24,10 +24,11 @@
 	<link rel="stylesheet" href="components/cards-collection/COUNT.CSS">
 	<link rel="stylesheet" href="components/navbar/navbar.css">
 	<link rel="stylesheet" href="components/footer/footer.css">
+	<link rel="stylesheet" href="components/cards/card2/card2.css">
 </head>
 
 <body>
-	<!--This is going to be a loooooong navbar,  bear with the code please-->
+	<!-- This is going to be a loooooong navbar,  bear with the code please -->
 	<header class="nav-bar">
 		<div class="menu-nav-container">
 			<!-- menu float -->
@@ -100,11 +101,15 @@
 				d="M22 3v13h-11.643l-4.357 3.105v-3.105h-4v-13h20zm2-2h-24v16.981h4v5.019l7-5.019h13v-16.981zm-5 6h-14v-1h14v1zm0 2h-14v1h14v-1zm-6 3h-8v1h8v-1z" />
 		</svg>
 	</a>
+
+	<!-- The background div containing all components -->
 	<div class="background-div">
 		<div class="banner">
 			<img src="assets/images/banner.png">
 		</div>
+
 		<hr>
+
 		<div class="container-fluid scroll">
 			<div class="card highlight-card">
 				<img src="assets/images/cards/highlights/0.jpg" class="card-img-top" alt="...">
@@ -170,7 +175,47 @@
 				</div>
 			</div>
 		</div>
+
 		<hr>
+		
+		<!-- The festive collection -->
+		<div class="container-fluid">
+			<!--Heading-->
+			<p class="sub-heading">Limited festive collections</p>
+			<div class="row">
+				<div class="col-sm-12 col-lg-4">
+					<div class="title"><h4 class="head">VINTER</h4>
+						<p class="content">Are you longing for an unusually merry Christmas?
+						We do that too. Prepare at home with decorations from our special holiday collection.</p>
+					</div>
+					<div> 
+						<img class="festive-collection-img" src="components/cards/card2/card2.png">
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-4">
+					<div class="title"><h4 class="head">VINTER</h4>
+						<p class="content">Are you longing for an unusually merry Christmas?
+						We do that too. Prepare at home with decorations from our special holiday collection.</p>
+					</div>
+					<div> 
+						<img class="festive-collection-img" src="components/cards/card2/card2.png">
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-4">
+					<div class="title"><h4 class="head">VINTER</h4>
+						<p class="content">Are you longing for an unusually merry Christmas?
+						We do that too. Prepare at home with decorations from our special holiday collection.</p>
+					</div>
+					<div> 
+						<img class="festive-collection-img" src="components/cards/card2/card2.png">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<hr>
+
+		<!--The product showcase-->
 		<!--Used a fluid container so that it always occupies 100% space. Use inner padding for gaps-->
 		<div class="container-fluid showcase">
 			<p class="sub-heading">More ideas and inspiration</p>
@@ -230,8 +275,10 @@
 		<div id="showcase-controls">
 			<button type="button" id="show-more-btn" class="btn">Load 12 more</button>
 		</div>
+
 		<hr>
-		<!--A group of cards showing features of Ikea-->
+
+		<!-- Features -->
 		<div class="feature-cards container-fluid">
 			<div class="row">
 				<div class="card feature-card col-sm-12 col-lg-3">
@@ -269,8 +316,11 @@
 				</div>
 			</div>
 		</div>
+
 		<hr>
+		
 	</div>
+
 	<!-- Footer Area -->
 	<footer class="footer-html page-footer bg-black bg-opacity-10 pt-3">
 		<!-- Footer Links -->

@@ -1,14 +1,41 @@
-.head{
- font-weight:650;
-}
-.content{
-    color:#6d6a6a;
-    font-size:.875rem;
+/* For all sizes */
+.head {
+    font-weight: 650;
 }
 
-img{
-    object-fit:cover;
-    height:auto;
-    width:100%;
+.content {
+    color: #6d6a6a;
+}
+
+.festive-collection-img {
+    object-fit: cover;
+    height: auto;
+    width: 100%;
     padding-top: 6%;
+}
+
+/* For small displays */
+@media only screen and (min-width: 768px) {
+    .head {
+        font-size: 56px;
+        margin: 2%;
+    }
+
+    .content {
+        font-size: 42px;
+        margin: 2%;
+    }
+}
+
+/* For large displays */
+@media only screen and (min-width: 1200px) {
+    .head {
+        font-size: 24px;
+        margin: 2%;
+    }
+
+    .content {
+        font-size: 14px;
+        margin: 2%;
+    }
 }
