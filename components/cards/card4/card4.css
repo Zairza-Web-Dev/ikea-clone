@@ -1,0 +1,72 @@
+
+    .figure {
+        position: relative;
+        width: 300px;
+        height: 300px;
+        max-width: 300px;
+    }
+    /*to add image roll-over effect*/
+    .figure img.image-hover {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      object-fit: contain;
+      opacity: 0;
+      transition: opacity .2s;
+    }
+    .figure:hover img.image-hover {
+      opacity: 1;
+
+    }
+    .like{
+        opacity: 0;
+        margin-left: 21%;
+        padding-bottom: 1%;
+        color:#747070;
+    }
+    .like:hover{
+        color:black;
+    }
+    
+    .card:hover div.like{
+        opacity: 1;
+    }
+    .hid{
+        opacity: 0;
+    }
+    .card:hover div.hid{
+        opacity: 1;
+    }
+    .alert{
+        color:red;
+    }
+    .prodname{
+        color:black;
+        font-weight:bold;
+        line-height:0.3em;
+    }
+    .card:hover p.prodname{
+        text-decoration:underline;
+    }
+    .card-text{
+        color:#484848;
+    }
+    .strike{
+        text-decoration: line-through;
+        padding-bottom:1%;
+    }
+    .small{
+        line-height: .9;
+        font-weight: 800;
+    font-size: .6875rem;
+    margin-right: 0.0625rem;
+    }
+    .large{
+        font-size: 1.375rem;
+        font-weight: 800;
+    }
+    small{
+        color:#484848;
+    }
